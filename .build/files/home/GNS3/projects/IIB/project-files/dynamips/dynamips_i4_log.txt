@@ -1,0 +1,31 @@
+Aug 31 09:30:58.150 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Aug 31 09:30:58.151 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41263.
+Aug 31 09:30:58.159 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 31 09:30:58.159 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips 
+Aug 31 09:30:58.159 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+Aug 31 09:30:58.159 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/006b8da0-4f4b-49cf-b70d-c638e4887a90 
+Aug 31 09:30:58.159 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/006b8da0-4f4b-49cf-b70d-c638e4887a90
+Aug 31 09:30:58.160 HYPERVISOR: exec_cmd: vm create R4 4 c2691 
+Aug 31 09:30:58.160 VM: VM R4 created.
+Aug 31 09:30:58.161 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5004 
+Aug 31 09:30:58.161 HYPERVISOR: exec_cmd: c2691 get_mac_addr R4 
+Aug 31 09:30:58.161 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Aug 31 09:30:58.162 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 31 09:30:58.162 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x607a8324 
+Aug 31 09:30:58.162 HYPERVISOR: exec_cmd: vm set_ios R4 /home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin 
+Aug 31 09:30:58.163 HYPERVISOR: exec_cmd: c2691 set_mac_addr R4 c004.0ecc.0000 
+Aug 31 09:30:58.163 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Aug 31 09:30:58.163 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Aug 31 09:30:58.164 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 31 09:30:58.164 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-4T 
+Aug 31 09:30:58.898 HYPERVISOR: exec_cmd: nio create_udp udp-e83dfb75-2818-4d9c-aabf-520129a8ac7c 10020 127.0.0.1 10021 
+Aug 31 09:30:58.919 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-e83dfb75-2818-4d9c-aabf-520129a8ac7c 
+Aug 31 09:30:58.919 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 31 09:30:58.965 HYPERVISOR: exec_cmd: nio create_udp udp-a69517d4-242c-4539-abb4-bf0781af405f 10024 127.0.0.1 10025 
+Aug 31 09:30:58.967 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-a69517d4-242c-4539-abb4-bf0781af405f 
+Aug 31 09:30:58.967 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 31 09:31:03.242 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Aug 31 09:31:03.244 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost 
+Aug 31 09:31:03.249 HYPERVISOR: exec_cmd: vm get_status R4 
+Aug 31 09:31:03.250 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Aug 31 09:31:03.251 HYPERVISOR: exec_cmd: vm start R4 

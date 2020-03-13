@@ -1,0 +1,47 @@
+Aug 25 17:18:10.942 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Aug 25 17:18:10.942 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59861.
+Aug 25 17:18:10.951 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 17:18:10.952 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips 
+Aug 25 17:18:10.952 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+Aug 25 17:18:10.952 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/62edf83c-e8c0-4520-9dfa-233d5cbce8bb 
+Aug 25 17:18:10.952 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/62edf83c-e8c0-4520-9dfa-233d5cbce8bb
+Aug 25 17:18:10.952 HYPERVISOR: exec_cmd: vm create R2 2 c2691 
+Aug 25 17:18:10.952 VM: VM R2 created.
+Aug 25 17:18:10.952 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Aug 25 17:18:10.952 HYPERVISOR: exec_cmd: c2691 get_mac_addr R2 
+Aug 25 17:18:10.953 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Aug 25 17:18:10.953 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:18:10.953 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x607a8324 
+Aug 25 17:18:10.954 HYPERVISOR: exec_cmd: vm set_ios R2 /home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin 
+Aug 25 17:18:10.954 HYPERVISOR: exec_cmd: c2691 set_mac_addr R2 c002.0f07.0000 
+Aug 25 17:18:10.954 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Aug 25 17:18:10.954 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Aug 25 17:18:10.954 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:18:10.955 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Aug 25 17:18:11.173 HYPERVISOR: exec_cmd: nio create_udp udp-0777cf10-602e-4cc8-9e51-95c5f168b1be 10004 127.0.0.1 10005 
+Aug 25 17:18:11.192 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-0777cf10-602e-4cc8-9e51-95c5f168b1be 
+Aug 25 17:18:11.192 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:18:11.278 HYPERVISOR: exec_cmd: nio create_udp udp-e032b455-927a-4e01-b742-968faa19be42 10012 127.0.0.1 10013 
+Aug 25 17:18:11.279 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-e032b455-927a-4e01-b742-968faa19be42 
+Aug 25 17:18:11.280 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:18:14.690 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Aug 25 17:18:14.691 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost 
+Aug 25 17:18:14.691 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:18:14.693 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Aug 25 17:18:14.695 HYPERVISOR: exec_cmd: vm start R2 
+Aug 25 17:18:24.116 HYPERVISOR: exec_cmd: nio bind_filter udp-e032b455-927a-4e01-b742-968faa19be42 2 capture 
+Aug 25 17:18:24.132 HYPERVISOR: exec_cmd: nio setup_filter udp-e032b455-927a-4e01-b742-968faa19be42 2 c_hdlc /home/hallgato/GNS3/projects/IIB2018/tmp/captures/R2_Serial11_to_R3_Serial11.pcap 
+Aug 25 17:19:02.666 HYPERVISOR: exec_cmd: nio unbind_filter udp-e032b455-927a-4e01-b742-968faa19be42 2 
+Aug 25 17:26:07.743 HYPERVISOR: exec_cmd: nio create_udp udp-b8f1d971-be84-4d4f-9e44-036277d511e5 10032 127.0.0.1 10033 
+Aug 25 17:26:07.745 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-b8f1d971-be84-4d4f-9e44-036277d511e5 
+Aug 25 17:26:07.745 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 17:26:07.745 HYPERVISOR: exec_cmd: vm slot_enable_nio R2 0 0 
+Aug 25 20:06:29.924 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 20:06:29.927 HYPERVISOR: exec_cmd: vm stop R2 
+Aug 25 20:06:30.080 VM: VM R2 shutdown.
+Aug 25 20:06:30.084 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 25 20:06:30.192 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Aug 25 20:06:30.193 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost 
+Aug 25 20:06:30.193 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 25 20:06:30.195 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Aug 25 20:06:30.195 HYPERVISOR: exec_cmd: vm start R2 

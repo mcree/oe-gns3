@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GNS3
+Exec=gns3
+Path=/home/hallgato/
+Icon=/home/hallgato/resources/GNS3-logo.png
+Terminal=false
+Type=Application
+Categories=Application

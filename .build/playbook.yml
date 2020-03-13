@@ -1,0 +1,86 @@
+---
+- hosts: all
+  vars:
+    - dest_user: "{{ lookup('env','NB_USER') | default('hallgato', true) }}"
+    - dest_uid: "{{ lookup('env','NB_UID') | default(10000, true) }}"
+  roles:
+    - role: docker
+  tasks:
+    - name: enable dpkg i386 architecture
+      lineinfile:
+        dest: "/var/lib/dpkg/arch"
+        line: "i386"
+        create: yes
+    - name: add GNS3 PPA repository
+      apt_repository:
+        repo: 'ppa:gns3/ppa'
+        state: present
+    - name: install required packages
+      apt:
+        pkg:
+          - lubuntu-desktop
+          - language-pack-hu
+          - language-pack-gnome-hu
+          - firefox-locale-hu
+          - hunspell-hu
+          - aspell-hu
+          - gnome-user-docs-hu
+          - apt-transport-https
+          - python3-pip
+          - locales
+          - git
+          - sudo
+          - mc
+          - wireshark
+          - gns3-gui
+          - gns3-server
+          - gns3-iou
+          - gnome-terminal
+    - name: upgrade distribution packages
+      apt:
+        upgrade: full
+    - name: install required pip packages
+      pip:
+        executable: pip3
+        name:
+          - pipenv
+          - "docker-compose==1.25.4"
+    - name: setup system locale
+      command:
+        cmd: "{{ item }}"
+      with_items:
+        - "locale-gen hu_HU.UTF-8"
+        - "update-locale LANG=hu_HU.UTF-8 LC_ALL=hu_HU.UTF-8"
+    - name: "add default user {{ dest_user }}:{{ dest_uid }}"
+      user:
+        name: "{{ dest_user }}"
+        home: "/home/{{ dest_user }}"
+        comment: Hallgato
+        password: $6$7uQS525NCE04TAQA$FS4oHPvK6j32ylaB9mN7ftpfDeKus0OhUGvq9GkxbLaFs/OYcgWmEr1oMOxprLhZUqxf0PAKQSinKfbdQ0INv0
+        groups: sudo, docker, ubridge, libvirt, libvirt-qemu, libvirt-dnsmasq, kvm
+        shell: /bin/bash
+        uid: "{{ dest_uid }}"
+    - name: fix /home permissions
+      file:
+          path: "/home/{{ dest_user }}"
+          recurse: yes
+          owner: "{{ dest_user }}"
+    - name: copy files to /home
+      copy:
+        src: files/home/
+        dest: "/home/{{ dest_user }}/"
+        owner: "{{ dest_user }}"
+    - name: copy files to /etc
+      copy:
+        src: files/etc/
+        dest: /etc/
+        owner: root
+    - name: copy files to /usr
+      copy:
+        src: files/usr/
+        dest: /usr/
+        owner: root
+        mode: preserve
+      tags: [indocker, invm]
+    - name: update CA certs
+      command: update-ca-certificates

@@ -1,0 +1,15 @@
+network:
+  ethernets:
+    LAN1:
+      match:
+        macaddress: 4e:3f:e4:e8:00:01
+      set-name: LAN1
+    LAN3:
+      match:
+        macaddress: 4e:3f:e4:e8:00:04
+      set-name: LAN4
+    LAN4:
+      match:
+        macaddress: 4e:3f:e4:e8:00:05
+      set-name: LAN5
+  version: 2

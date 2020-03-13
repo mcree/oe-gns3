@@ -1,0 +1,49 @@
+Aug 31 09:30:57.935 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Aug 31 09:30:57.935 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33845.
+Aug 31 09:30:57.953 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 31 09:30:57.953 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips 
+Aug 31 09:30:57.953 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+Aug 31 09:30:57.954 HYPERVISOR: exec_cmd: hypervisor working_dir /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/62edf83c-e8c0-4520-9dfa-233d5cbce8bb 
+Aug 31 09:30:57.954 GENERAL: working_dir=/home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/62edf83c-e8c0-4520-9dfa-233d5cbce8bb
+Aug 31 09:30:57.954 HYPERVISOR: exec_cmd: vm create R2 2 c2691 
+Aug 31 09:30:57.955 VM: VM R2 created.
+Aug 31 09:30:57.955 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Aug 31 09:30:57.956 HYPERVISOR: exec_cmd: c2691 get_mac_addr R2 
+Aug 31 09:30:57.956 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Aug 31 09:30:57.957 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:30:57.957 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x607a8324 
+Aug 31 09:30:57.958 HYPERVISOR: exec_cmd: vm set_ios R2 /home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin 
+Aug 31 09:30:57.958 HYPERVISOR: exec_cmd: c2691 set_mac_addr R2 c002.0f07.0000 
+Aug 31 09:30:57.958 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Aug 31 09:30:57.959 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Aug 31 09:30:57.959 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:30:57.959 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Aug 31 09:30:58.421 HYPERVISOR: exec_cmd: nio create_udp udp-88852da4-de11-4859-a33d-ca5aa27fbd3e 10004 127.0.0.1 10005 
+Aug 31 09:30:58.447 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-88852da4-de11-4859-a33d-ca5aa27fbd3e 
+Aug 31 09:30:58.448 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:30:58.786 HYPERVISOR: exec_cmd: nio create_udp udp-b950579e-fa22-4805-8802-7f289aec4e5e 10012 127.0.0.1 10013 
+Aug 31 09:30:58.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-b950579e-fa22-4805-8802-7f289aec4e5e 
+Aug 31 09:30:58.790 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:30:59.082 HYPERVISOR: exec_cmd: nio create_udp udp-74f41bec-6121-4f04-974d-0d119b314749 10032 127.0.0.1 10033 
+Aug 31 09:30:59.083 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-74f41bec-6121-4f04-974d-0d119b314749 
+Aug 31 09:30:59.083 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:31:02.543 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Aug 31 09:31:02.543 VM: VM Ghost created.
+Aug 31 09:31:02.544 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin 
+Aug 31 09:31:02.545 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 31 09:31:02.547 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost 
+Aug 31 09:31:02.547 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 31 09:31:02.548 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 31 09:31:02.550 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Aug 31 09:31:02.551 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 31 09:31:02.950 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 31 09:31:02.951 HYPERVISOR: exec_cmd: vm stop Ghost 
+Aug 31 09:31:03.007 VM: VM Ghost shutdown.
+Aug 31 09:31:03.009 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Aug 31 09:31:03.010 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 31 09:31:03.010 VM: VM Ghost destroyed.
+Aug 31 09:31:03.012 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Aug 31 09:31:03.012 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost 
+Aug 31 09:31:03.013 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 31 09:31:03.014 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Aug 31 09:31:03.017 HYPERVISOR: exec_cmd: vm start R2 

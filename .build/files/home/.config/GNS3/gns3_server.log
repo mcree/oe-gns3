@@ -1,0 +1,295 @@
+2018-08-31 09:30:53 INFO run.py:213 GNS3 server version 2.1.9
+2018-08-31 09:30:53 INFO run.py:215 Copyright (c) 2007-2018 GNS3 Technologies Inc.
+2018-08-31 09:30:53 INFO run.py:218 Config file /home/hallgato/.config/GNS3/gns3_server.conf loaded
+2018-08-31 09:30:53 WARNING run.py:224 Local mode is enabled. Beware, clients will have full control on your filesystem
+2018-08-31 09:30:53 INFO run.py:232 Running with Python 3.6.5 and has PID 1556
+2018-08-31 09:30:53 INFO run.py:79 Current locale is en_US.UTF-8
+2018-08-31 09:30:53 INFO web_server.py:275 Starting server on 127.0.0.1:3080
+2018-08-31 09:30:53 INFO __init__.py:65 Load controller configuration file /home/hallgato/.config/GNS3/gns3_controller.conf
+2018-08-31 09:30:53 INFO __init__.py:170 Start controller
+2018-08-31 09:30:53 INFO compute.py:79 Create compute local
+2018-08-31 09:30:53 INFO compute.py:409 Connecting to compute 'local'
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/version HTTP/1.1" 200 225 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/appliances/templates HTTP/1.1" 200 540956 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/appliances HTTP/1.1" 200 4573 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/computes HTTP/1.1" 200 551 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/appliances/templates HTTP/1.1" 200 540956 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/appliances HTTP/1.1" 200 4573 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/projects HTTP/1.1" 200 1372 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/version HTTP/1.1" 200 225 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/projects HTTP/1.1" 200 1372 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/cisco-fmcv.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/fortinet.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/firefox.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/:/symbols/router.svg/raw HTTP/1.1" 200 11036 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/mgmt_station.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/loadbalancer.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/:/symbols/guest.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/vRIN.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:53 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:53 +0000] "GET /v2/symbols/:/symbols/firewall.svg/raw HTTP/1.1" 200 9625 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/microsoft.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/multilayer_switch.svg/raw HTTP/1.1" 200 21516 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/linux_guest.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/cloud.svg/raw HTTP/1.1" 200 27981 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/juniper-vmx.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/ids.svg/raw HTTP/1.1" 200 13372 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/juniper-vqfx.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/mgmt_station_docker.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/wlan_controller.svg/raw HTTP/1.1" 200 261469 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/router_firewall.svg/raw HTTP/1.1" 200 50060 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/securityonion-logo.png/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/cisco-ise.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/pan-vm-fw.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/asa.svg/raw HTTP/1.1" 200 18811 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/ostinato-3d-icon.svg/raw HTTP/1.1" 200 18842 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/vpcs_guest.svg/raw HTTP/1.1" 200 19494 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/ethernet_switch.svg/raw HTTP/1.1" 200 9272 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/hub.svg/raw HTTP/1.1" 200 7635 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/frame_relay_switch.svg/raw HTTP/1.1" 200 10026 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:54 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:54 +0000] "GET /v2/symbols/:/symbols/atm_switch.svg/raw HTTP/1.1" 200 9958 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:55 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:55 +0000] "GET /v2/computes HTTP/1.1" 200 551 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:55 INFO compute.py:409 Connecting to compute 'local'
+2018-08-31 09:30:55 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:55 +0000] "GET /v2/compute/capabilities HTTP/1.1" 200 550 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:57 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:57 +0000] "GET /v2/computes HTTP/1.1" 200 989 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:57 INFO project.py:81 Project dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef with path '/home/hallgato/GNS3/projects/IIB2018' created
+2018-08-31 09:30:57 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:57 +0000] "POST /v2/compute/projects HTTP/1.1" 201 301 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:57 INFO __init__.py:307 Creating new hypervisor 127.0.0.1:53885 with working directory /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+2018-08-31 09:30:57 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:53885']
+2018-08-31 09:30:57 INFO hypervisor.py:130 Dynamips process logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/dynamips_i1_stdout.txt
+2018-08-31 09:30:57 INFO hypervisor.py:137 Dynamips process started PID=1565
+2018-08-31 09:30:57 INFO __init__.py:309 Hypervisor 127.0.0.1:53885 has successfully started
+2018-08-31 09:30:57 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.0719 seconds
+2018-08-31 09:30:57 INFO router.py:228 Router c2691 "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6] has been created
+2018-08-31 09:30:57 INFO router.py:984 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: auto delete disks enabled
+2018-08-31 09:30:57 INFO router.py:936 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: disk0 updated from 16MB to 0MB
+2018-08-31 09:30:57 INFO router.py:683 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: idle-PC set to 0x607a8324
+2018-08-31 09:30:57 INFO router.py:507 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: has a new IOS image set: "/home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin"
+2018-08-31 09:30:57 INFO router.py:1047 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: MAC address updated from c001.061d.0000 to c001.0ec3.0000
+2018-08-31 09:30:57 INFO router.py:564 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: NVRAM updated from 112KB to 256KB
+2018-08-31 09:30:57 INFO router.py:536 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: RAM updated from 128MB to 192MB
+2018-08-31 09:30:57 INFO router.py:1125 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: adapter NM-4T inserted into slot 1
+2018-08-31 09:30:57 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:57 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes HTTP/1.1" 201 1162 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:57 INFO __init__.py:307 Creating new hypervisor 127.0.0.1:33845 with working directory /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+2018-08-31 09:30:57 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', '127.0.0.1:33845']
+2018-08-31 09:30:57 INFO hypervisor.py:130 Dynamips process logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/dynamips_i2_stdout.txt
+2018-08-31 09:30:57 INFO hypervisor.py:137 Dynamips process started PID=1580
+2018-08-31 09:30:57 INFO __init__.py:309 Hypervisor 127.0.0.1:33845 has successfully started
+2018-08-31 09:30:57 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.0323 seconds
+2018-08-31 09:30:57 INFO router.py:228 Router c2691 "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb] has been created
+2018-08-31 09:30:57 INFO router.py:984 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: auto delete disks enabled
+2018-08-31 09:30:57 INFO router.py:936 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: disk0 updated from 16MB to 0MB
+2018-08-31 09:30:57 INFO router.py:683 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: idle-PC set to 0x607a8324
+2018-08-31 09:30:57 INFO router.py:507 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: has a new IOS image set: "/home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin"
+2018-08-31 09:30:57 INFO router.py:1047 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: MAC address updated from c002.062c.0000 to c002.0f07.0000
+2018-08-31 09:30:57 INFO router.py:564 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: NVRAM updated from 112KB to 256KB
+2018-08-31 09:30:57 INFO router.py:536 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: RAM updated from 128MB to 192MB
+2018-08-31 09:30:57 INFO router.py:1125 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: adapter NM-4T inserted into slot 1
+2018-08-31 09:30:57 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:57 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes HTTP/1.1" 201 1162 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:39897
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:39897']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/builtin/6d7969c3-da40-44c4-b3b8-cdd534c463e8/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1596
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:39897 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0186 seconds
+2018-08-31 09:30:58 INFO cloud.py:128 Cloud "LAN1" [6d7969c3-da40-44c4-b3b8-cdd534c463e8] has been created
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes HTTP/1.1" 201 2041 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO __init__.py:307 Creating new hypervisor 127.0.0.1:54501 with working directory /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+2018-08-31 09:30:58 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i3_log.txt', '-H', '127.0.0.1:54501']
+2018-08-31 09:30:58 INFO hypervisor.py:130 Dynamips process logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/dynamips_i3_stdout.txt
+2018-08-31 09:30:58 INFO hypervisor.py:137 Dynamips process started PID=1598
+2018-08-31 09:30:58 INFO __init__.py:309 Hypervisor 127.0.0.1:54501 has successfully started
+2018-08-31 09:30:58 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.0131 seconds
+2018-08-31 09:30:58 INFO router.py:228 Router c2691 "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b] has been created
+2018-08-31 09:30:58 INFO router.py:984 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: auto delete disks enabled
+2018-08-31 09:30:58 INFO router.py:936 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: disk0 updated from 16MB to 0MB
+2018-08-31 09:30:58 INFO router.py:683 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: idle-PC set to 0x607a8324
+2018-08-31 09:30:58 INFO router.py:507 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: has a new IOS image set: "/home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin"
+2018-08-31 09:30:58 INFO router.py:1047 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: MAC address updated from c003.063e.0000 to c003.0e7c.0000
+2018-08-31 09:30:58 INFO router.py:564 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: NVRAM updated from 112KB to 256KB
+2018-08-31 09:30:58 INFO router.py:536 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: RAM updated from 128MB to 192MB
+2018-08-31 09:30:58 INFO router.py:1125 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: adapter NM-4T inserted into slot 1
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes HTTP/1.1" 201 1162 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO __init__.py:307 Creating new hypervisor 127.0.0.1:41263 with working directory /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips
+2018-08-31 09:30:58 INFO hypervisor.py:128 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i4_log.txt', '-H', '127.0.0.1:41263']
+2018-08-31 09:30:58 INFO hypervisor.py:130 Dynamips process logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/dynamips_i4_stdout.txt
+2018-08-31 09:30:58 INFO hypervisor.py:137 Dynamips process started PID=1613
+2018-08-31 09:30:58 INFO __init__.py:309 Hypervisor 127.0.0.1:41263 has successfully started
+2018-08-31 09:30:58 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor after 0.0112 seconds
+2018-08-31 09:30:58 INFO router.py:228 Router c2691 "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90] has been created
+2018-08-31 09:30:58 INFO router.py:984 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: auto delete disks enabled
+2018-08-31 09:30:58 INFO router.py:936 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: disk0 updated from 16MB to 0MB
+2018-08-31 09:30:58 INFO router.py:683 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: idle-PC set to 0x607a8324
+2018-08-31 09:30:58 INFO router.py:507 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: has a new IOS image set: "/home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin"
+2018-08-31 09:30:58 INFO router.py:1047 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: MAC address updated from c004.064d.0000 to c004.0ecc.0000
+2018-08-31 09:30:58 INFO router.py:564 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: NVRAM updated from 112KB to 256KB
+2018-08-31 09:30:58 INFO router.py:536 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: RAM updated from 128MB to 192MB
+2018-08-31 09:30:58 INFO router.py:1125 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: adapter NM-4T inserted into slot 1
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes HTTP/1.1" 201 1162 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:35875
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:35875']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/builtin/eca2ef3c-0969-4e3b-ae5d-50a13e40a00d/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1629
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:35875 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0116 seconds
+2018-08-31 09:30:58 INFO cloud.py:128 Cloud "LAN4" [eca2ef3c-0969-4e3b-ae5d-50a13e40a00d] has been created
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes HTTP/1.1" 201 2041 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:37399
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:37399']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/builtin/68e0fd12-f863-4b98-a205-e641da5ca3ff/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1632
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:37399 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0115 seconds
+2018-08-31 09:30:58 INFO cloud.py:128 Cloud "LAN5" [68e0fd12-f863-4b98-a205-e641da5ca3ff] has been created
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes HTTP/1.1" 201 2041 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:41491
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:41491']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/builtin/251ff424-b2cc-4ef1-a0b0-63b3c985b13d/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1635
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:41491 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0118 seconds
+2018-08-31 09:30:58 INFO cloud.py:128 Cloud "NAT" [251ff424-b2cc-4ef1-a0b0-63b3c985b13d] has been created
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/nat/nodes HTTP/1.1" 201 551 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-00372753-7992-4d84-97d5-8a2903ed9de8 created with lport=10000, rhost=127.0.0.1, rport=10001
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:41357
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:41357']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/140a1c68-268b-4a0e-bb04-ac7fb8fdeed6/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1650
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:41357 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0113 seconds
+2018-08-31 09:30:58 INFO router.py:1312 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: NIO udp-00372753-7992-4d84-97d5-8a2903ed9de8 bound to port 1/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/140a1c68-268b-4a0e-bb04-ac7fb8fdeed6/adapters/1/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-88852da4-de11-4859-a33d-ca5aa27fbd3e created with lport=10001, rhost=127.0.0.1, rport=10000
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:39587
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:39587']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/62edf83c-e8c0-4520-9dfa-233d5cbce8bb/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1655
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:39587 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0128 seconds
+2018-08-31 09:30:58 INFO router.py:1312 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: NIO udp-88852da4-de11-4859-a33d-ca5aa27fbd3e bound to port 1/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/62edf83c-e8c0-4520-9dfa-233d5cbce8bb/adapters/1/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-b7d08991-d63b-4128-9591-7be8550946c6 created with lport=10006, rhost=127.0.0.1, rport=10007
+2018-08-31 09:30:58 INFO router.py:1312 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: NIO udp-b7d08991-d63b-4128-9591-7be8550946c6 bound to port 0/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/140a1c68-268b-4a0e-bb04-ac7fb8fdeed6/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO cloud.py:302 Cloud "LAN1" [6d7969c3-da40-44c4-b3b8-cdd534c463e8]: NIO NIO UDP bound to port 2
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/6d7969c3-da40-44c4-b3b8-cdd534c463e8/adapters/0/ports/2/nio HTTP/1.1" 201 378 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-b950579e-fa22-4805-8802-7f289aec4e5e created with lport=10010, rhost=127.0.0.1, rport=10011
+2018-08-31 09:30:58 INFO router.py:1312 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: NIO udp-b950579e-fa22-4805-8802-7f289aec4e5e bound to port 1/1
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/62edf83c-e8c0-4520-9dfa-233d5cbce8bb/adapters/1/ports/1/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-5530b039-c930-49e6-b2cd-081585afdc83 created with lport=10011, rhost=127.0.0.1, rport=10010
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:42107
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:42107']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/db11d8fa-0640-4a51-8cad-62fb07bfb55b/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1666
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:42107 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0150 seconds
+2018-08-31 09:30:58 INFO router.py:1312 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: NIO udp-5530b039-c930-49e6-b2cd-081585afdc83 bound to port 1/1
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/db11d8fa-0640-4a51-8cad-62fb07bfb55b/adapters/1/ports/1/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-257ceb69-874b-449b-a91c-c6fea3df69e5 created with lport=10016, rhost=127.0.0.1, rport=10017
+2018-08-31 09:30:58 INFO router.py:1312 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: NIO udp-257ceb69-874b-449b-a91c-c6fea3df69e5 bound to port 1/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/db11d8fa-0640-4a51-8cad-62fb07bfb55b/adapters/1/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-e83dfb75-2818-4d9c-aabf-520129a8ac7c created with lport=10017, rhost=127.0.0.1, rport=10016
+2018-08-31 09:30:58 INFO base_node.py:539 Starting new uBridge hypervisor 127.0.0.1:39045
+2018-08-31 09:30:58 INFO hypervisor.py:170 starting ubridge: ['/usr/bin/ubridge', '-H', '127.0.0.1:39045']
+2018-08-31 09:30:58 INFO hypervisor.py:172 logging to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/006b8da0-4f4b-49cf-b70d-c638e4887a90/ubridge.log
+2018-08-31 09:30:58 INFO hypervisor.py:180 ubridge started PID=1673
+2018-08-31 09:30:58 INFO base_node.py:542 Hypervisor 127.0.0.1:39045 has successfully started
+2018-08-31 09:30:58 INFO ubridge_hypervisor.py:84 Connected to uBridge hypervisor after 0.0113 seconds
+2018-08-31 09:30:58 INFO router.py:1312 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: NIO udp-e83dfb75-2818-4d9c-aabf-520129a8ac7c bound to port 1/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/006b8da0-4f4b-49cf-b70d-c638e4887a90/adapters/1/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO nio_udp.py:87 NIO UDP udp-a69517d4-242c-4539-abb4-bf0781af405f created with lport=10022, rhost=127.0.0.1, rport=10023
+2018-08-31 09:30:58 INFO router.py:1312 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: NIO udp-a69517d4-242c-4539-abb4-bf0781af405f bound to port 0/0
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/006b8da0-4f4b-49cf-b70d-c638e4887a90/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:58 INFO cloud.py:302 Cloud "LAN4" [eca2ef3c-0969-4e3b-ae5d-50a13e40a00d]: NIO NIO UDP bound to port 3
+2018-08-31 09:30:58 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:58 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/eca2ef3c-0969-4e3b-ae5d-50a13e40a00d/adapters/0/ports/3/nio HTTP/1.1" 201 378 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO nio_udp.py:87 NIO UDP udp-09aceca3-a63c-457c-a191-453758b80b34 created with lport=10026, rhost=127.0.0.1, rport=10027
+2018-08-31 09:30:59 INFO router.py:1312 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: NIO udp-09aceca3-a63c-457c-a191-453758b80b34 bound to port 0/0
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/db11d8fa-0640-4a51-8cad-62fb07bfb55b/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO cloud.py:302 Cloud "LAN5" [68e0fd12-f863-4b98-a205-e641da5ca3ff]: NIO NIO UDP bound to port 0
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/68e0fd12-f863-4b98-a205-e641da5ca3ff/adapters/0/ports/0/nio HTTP/1.1" 201 378 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/ports/udp HTTP/1.1" 201 242 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO nio_udp.py:87 NIO UDP udp-74f41bec-6121-4f04-974d-0d119b314749 created with lport=10030, rhost=127.0.0.1, rport=10031
+2018-08-31 09:30:59 INFO router.py:1312 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: NIO udp-74f41bec-6121-4f04-974d-0d119b314749 bound to port 0/0
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/62edf83c-e8c0-4520-9dfa-233d5cbce8bb/adapters/0/ports/0/nio HTTP/1.1" 201 381 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO cloud.py:302 Cloud "NAT" [251ff424-b2cc-4ef1-a0b0-63b3c985b13d]: NIO NIO UDP bound to port 0
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/nat/nodes/251ff424-b2cc-4ef1-a0b0-63b3c985b13d/adapters/0/ports/0/nio HTTP/1.1" 201 376 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "POST /v2/projects/load HTTP/1.1" 201 702 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "GET /v2/computes HTTP/1.1" 200 989 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "GET /v2/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/nodes HTTP/1.1" 200 31518 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "GET /v2/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/links HTTP/1.1" 200 9088 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:30:59 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:30:59 +0000] "GET /v2/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/drawings HTTP/1.1" 200 204 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:31:02 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:02 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/6d7969c3-da40-44c4-b3b8-cdd534c463e8/start HTTP/1.1" 204 245 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:02 INFO router.py:113 Creating a new ghost IOS instance
+2018-08-31 09:31:02 INFO router.py:507 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5]: has a new IOS image set: "/home/hallgato/GNS3/images/IOS/c2691-advsecurityk9-mz.124-6.T.bin"
+2018-08-31 09:31:02 INFO router.py:880 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5]: ghost status set to 1
+2018-08-31 09:31:02 INFO router.py:839 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5]: ghost file set to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost
+2018-08-31 09:31:02 INFO router.py:536 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5]: RAM updated from 128MB to 192MB
+2018-08-31 09:31:02 INFO router.py:303 router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5] has been started
+2018-08-31 09:31:03 INFO router.py:335 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5] has been stopped
+2018-08-31 09:31:03 INFO router.py:1636 Router "Ghost" [0bca11d7-db86-4365-9608-bba1ae60afa5] has been deleted (including associated files)
+2018-08-31 09:31:03 INFO router.py:880 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: ghost status set to 2
+2018-08-31 09:31:03 INFO router.py:839 Router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: ghost file set to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost
+2018-08-31 09:31:03 INFO router.py:880 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: ghost status set to 2
+2018-08-31 09:31:03 INFO router.py:839 Router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: ghost file set to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost
+2018-08-31 09:31:03 INFO router.py:880 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: ghost status set to 2
+2018-08-31 09:31:03 INFO router.py:839 Router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: ghost file set to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost
+2018-08-31 09:31:03 INFO router.py:303 router "R2" [62edf83c-e8c0-4520-9dfa-233d5cbce8bb] has been started
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/62edf83c-e8c0-4520-9dfa-233d5cbce8bb/start HTTP/1.1" 204 248 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO router.py:880 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: ghost status set to 2
+2018-08-31 09:31:03 INFO router.py:303 router "R3" [db11d8fa-0640-4a51-8cad-62fb07bfb55b] has been started
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/db11d8fa-0640-4a51-8cad-62fb07bfb55b/start HTTP/1.1" 204 248 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO router.py:839 Router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90]: ghost file set to /home/hallgato/GNS3/projects/IIB2018/project-files/dynamips/c2691-advsecurityk9-mz.124-6.T.bin-192.ghost
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/eca2ef3c-0969-4e3b-ae5d-50a13e40a00d/start HTTP/1.1" 204 245 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/cloud/nodes/68e0fd12-f863-4b98-a205-e641da5ca3ff/start HTTP/1.1" 204 245 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/nat/nodes/251ff424-b2cc-4ef1-a0b0-63b3c985b13d/start HTTP/1.1" 204 243 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO router.py:303 router "R1" [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6] has been started
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/140a1c68-268b-4a0e-bb04-ac7fb8fdeed6/start HTTP/1.1" 204 248 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO router.py:303 router "R4" [006b8da0-4f4b-49cf-b70d-c638e4887a90] has been started
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/compute/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/dynamips/nodes/006b8da0-4f4b-49cf-b70d-c638e4887a90/start HTTP/1.1" 204 248 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 09:31:03 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:03 +0000] "POST /v2/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/nodes/start HTTP/1.1" 204 221 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:31:04 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:31:04 +0000] "GET /v2/computes HTTP/1.1" 200 988 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:35:37 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:35:37 +0000] "GET /v2/computes HTTP/1.1" 200 988 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:35:39 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:35:39 +0000] "GET /v2/computes HTTP/1.1" 200 988 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:42:22 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:42:22 +0000] "GET /v2/computes HTTP/1.1" 200 988 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:42:27 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:42:27 +0000] "GET /v2/computes HTTP/1.1" 200 988 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:48:28 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:48:28 +0000] "GET /v2/computes HTTP/1.1" 200 989 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 09:55:30 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:07:55:30 +0000] "GET /v2/computes HTTP/1.1" 200 989 "-" "GNS3 QT Client v2.1.9"
+2018-08-31 10:00:03 WARNING web_server.py:138 Server has got signal SIGTERM, exiting...
+2018-08-31 10:00:03 WARNING web_server.py:138 Server has got signal SIGHUP, exiting...
+2018-08-31 10:00:03 WARNING web_server.py:95 Close is already in progress
+2018-08-31 10:00:03 INFO router.py:318 Dynamips hypervisor process has stopped, return code: -15
+2018-08-31 10:00:03 INFO router.py:318 Dynamips hypervisor process has stopped, return code: -15
+2018-08-31 10:00:03 INFO router.py:318 Dynamips hypervisor process has stopped, return code: -15
+2018-08-31 10:00:03 INFO router.py:318 Dynamips hypervisor process has stopped, return code: -15
+2018-08-31 10:00:05 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:08:00:05 +0000] "GET /v2/projects/dc4c2dd1-ecc6-47c3-abbf-7e004c9bb6ef/notifications/ws HTTP/1.1" 408 560 "-" "-"
+2018-08-31 10:00:05 INFO helpers.py:534 127.0.0.1 [31/Aug/2018:08:00:05 +0000] "GET /v2/compute/notifications/ws HTTP/1.1" 200 478 "-" "Python/3.6 aiohttp/2.3.10"
+2018-08-31 10:00:05 INFO __init__.py:224 Stop controller
+2018-08-31 10:00:05 INFO base_node.py:313 Builtin: 'LAN1' [6d7969c3-da40-44c4-b3b8-cdd534c463e8]: is closing
+2018-08-31 10:00:05 INFO cloud.py:159 Cloud "LAN1" [6d7969c3-da40-44c4-b3b8-cdd534c463e8] has been closed
+2018-08-31 10:00:05 INFO base_node.py:313 Builtin: 'LAN4' [eca2ef3c-0969-4e3b-ae5d-50a13e40a00d]: is closing
+2018-08-31 10:00:05 INFO cloud.py:159 Cloud "LAN4" [eca2ef3c-0969-4e3b-ae5d-50a13e40a00d] has been closed
+2018-08-31 10:00:05 INFO base_node.py:313 Builtin: 'LAN5' [68e0fd12-f863-4b98-a205-e641da5ca3ff]: is closing
+2018-08-31 10:00:05 INFO cloud.py:159 Cloud "LAN5" [68e0fd12-f863-4b98-a205-e641da5ca3ff] has been closed
+2018-08-31 10:00:05 INFO base_node.py:313 Builtin: 'NAT' [251ff424-b2cc-4ef1-a0b0-63b3c985b13d]: is closing
+2018-08-31 10:00:05 INFO cloud.py:159 Cloud "NAT" [251ff424-b2cc-4ef1-a0b0-63b3c985b13d] has been closed
+2018-08-31 10:00:05 INFO base_node.py:313 Dynamips: 'R1' [140a1c68-268b-4a0e-bb04-ac7fb8fdeed6]: is closing
+2018-08-31 10:00:05 INFO base_node.py:313 Dynamips: 'R2' [62edf83c-e8c0-4520-9dfa-233d5cbce8bb]: is closing
+2018-08-31 10:00:05 INFO base_node.py:313 Dynamips: 'R3' [db11d8fa-0640-4a51-8cad-62fb07bfb55b]: is closing
+2018-08-31 10:00:05 INFO base_node.py:313 Dynamips: 'R4' [006b8da0-4f4b-49cf-b70d-c638e4887a90]: is closing
+2018-08-31 10:00:06 WARNING router.py:408 Could not stop and delete R1: No data returned from 127.0.0.1:53885, Dynamips process running: False
+2018-08-31 10:00:06 WARNING router.py:408 Could not stop and delete R2: No data returned from 127.0.0.1:33845, Dynamips process running: False
+2018-08-31 10:00:06 WARNING router.py:408 Could not stop and delete R3: No data returned from 127.0.0.1:54501, Dynamips process running: False
+2018-08-31 10:00:06 WARNING router.py:408 Could not stop and delete R4: No data returned from 127.0.0.1:41263, Dynamips process running: False
+2018-08-31 10:00:06 INFO run.py:261 Remove PID file /home/hallgato/.config/GNS3/gns3_server.pid
