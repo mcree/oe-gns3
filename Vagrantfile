@@ -9,7 +9,7 @@ end
 
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "generic/ubuntu1804"
 
   config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
      # Customize the amount of memory on the VM:
      vb.memory = "1536" # 1.5G
 
-     vb.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+     #vb.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
   end
 
   config.vm.provision "shell", inline: <<-SHELL
@@ -30,6 +30,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", virtualbox__intnet: "LAN1", :mac => "4e3fe4e80001", auto_config: false
   config.vm.network "private_network", virtualbox__intnet: "LAN4", :mac => "4e3fe4e80004", auto_config: false
   config.vm.network "private_network", virtualbox__intnet: "LAN5", :mac => "4e3fe4e80005", auto_config: false
+
+  config.vm.synced_folder '.', '/vagrant', disabled: false
 
   config.vm.provision "ansible_local" do |ansible|
     ansible.playbook = ".build/playbook.yml"
